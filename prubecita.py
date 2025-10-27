@@ -1,3 +1,5 @@
+# Hola mundo 
+
 def frase1(frase:str) -> float:
     precio = 0
     for i in frase:
@@ -7,3 +9,6 @@ def frase1(frase:str) -> float:
             precio += 0.5
     return precio
 print (frase1("Hola Mundo"))
+
+
+
