@@ -5,10 +5,13 @@ def frase1(frase:str) -> float:
     for i in frase:
         if i == "a""e""i""o""u":
             precio += 1
-        elif i == frase.lower:
+        elif i == " ":
+            precio += 2
+        else:
             precio += 0.5
     return precio
-print (frase1("Hola Mundo"))
+print (frase1("Hola Mundo")) # jdkfj
+print (frase1("a a")) #4
 
 
 
