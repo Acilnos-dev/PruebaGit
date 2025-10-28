@@ -5,7 +5,7 @@ def frase1(frase:str) -> float:
     for i in frase:
         if i == "a""e""i""o""u":
             precio += 1
-        elif i == " ":
+        elif i == i.isalpha:
             precio += 2
         else:
             precio += 0.5
